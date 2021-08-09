@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const Schema = mongoose.Schema;
-var bcrypt = require('bcrypt');
+// var bcrypt = require('bcrypt');
 var SALT_WORK_FACTOR = 10;
 
 const Student_Registeration_Info_Schema = new Schema({
